@@ -11,8 +11,11 @@
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Tangerine">
     <link rel="stylesheet" type="text/css" href="cssmap-europe/cssmap-europe.css" media="screen">
     <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css">
+    <link rel="stylesheet" href="dist/remodal.css">
+    <link rel="stylesheet" href="dist/remodal-default-theme.css">
     <script type="text/javascript" src="script/jquery.cssmap.min.js"></script>
     <script type="text/javascript" src="script/jquery.fullPage.js"></script>
+    <script src="dist/remodal.min.js"></script>
     <script src="script/d3.v3.min.js"></script>
     <script type="text/javascript">
       $(document).ready(function() {
@@ -722,7 +725,7 @@
         </div>
         <div class="row">
           <div class="col-md-4">
-            <a href="#target-content"><img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png" class="img-responsive"></a>
+            <a href="#modal"><img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png" class="img-responsive"></a>
             <h3>A title</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisici elit,&nbsp;</p>
           </div>
@@ -756,7 +759,15 @@
         </div>
       </div>
             
-      
+      <div class="remodal" data-remodal-id="modal">
+  <button data-remodal-action="close" class="remodal-close"></button>
+  <h1>Remodal</h1>
+  <p>
+    Responsive, lightweight, fast, synchronized with CSS animations, fully customizable modal window plugin with declarative configuration and hash tracking.
+  </p>
+  <br>
+ 
+</div>
             
     </div>
         
