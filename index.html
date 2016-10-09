@@ -1,0 +1,829 @@
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="css/eurounion.css" rel="stylesheet" type="text/css">
+    <!-- ---------------------- -->
+    <!-- Adições personalizadas -->
+    <!-- ---------------------- -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="stylesheet" type="text/css" href="cssmap-europe/cssmap-europe.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css">
+    <script type="text/javascript" src="https://cssmapsplugin.com/5/jquery.cssmap.min.js"></script>
+    <script type="text/javascript" src="script/jquery.fullPage.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+                $('#fullpage').fullpage({
+                    'verticalCentered': false,
+                    'css3': true,
+                    'navigation': false,
+                    'navigationPosition': 'right',
+                    'navigationTooltips': ['Início', 'História', 'Amazing', 'Simple'],
+                    
+                     anchors: ['firstPage', 'secondPage'],
+                     
+                     
+                });
+                $("#map-europe").CSSMap({
+                    "size": 1450,
+                    "tooltips": "floating-top-center",
+                    "responsive": "auto",
+                    "agentsList": {
+                    "enable": true,
+                    "agentsListId": "#demo-agents",
+                    "agentsListSpeed": 0,
+                    "agentsListOnHover": false
+                    }
+                });
+        
+              });
+    </script>
+  </head><body>
+    <div id="fullpage">
+        <div class="section" data-anchor="slide1">
+              <video data-autoplay="" loop="" muted="" id="vid">
+                <source src="video/agua.webm" type="video/webm">
+                  <source src="video/agua.mp4" type="video/mp4">
+              </video>
+            
+             <div id="azul"> </div>
+             
+              <div class="col-md-12" id="logo">
+                <div class="col-md-12">
+                  <img src="imagem/logo.png" class="center-block img-responsive">
+                    
+                </div>
+                <div class="col-md-12 text-center" style="top:50px">
+                  <h1 style="font-family: Tangerine; color: white; font-size: 50px" >A União Européia pela ótica do comércio internacional</h1>
+                  
+                </div>
+                  <img id="mouse_icon" src="imagem/mouse.gif">
+              </div>
+            
+            <div class="entire-menu">
+                 <input type="checkbox" id="change-hamburguer" />
+                <a class="hamburguer" href="#">
+                <span></span>
+                <label for="change-hamburguer"></label>
+                </a>
+                <div class="menu">
+                  <a  href="#secondPage">Item</a>
+                  <a href="#">Item</a>
+                 </div>
+            </div>
+            
+            <ul id="menu">
+                <li data-menuanchor="firstPage" class="active"><a href="#secondPage">First slide</a></li>
+                <li data-menuanchor="secondPage"><a href="#secondPage">Second slide</a></li>
+                <li data-menuanchor="3rdPage"><a href="#3rdPage">Third slide</a></li>
+            </ul>
+             
+    </div>
+     
+            
+    <div class="section" id="historia">
+        <div class="container">
+        <div class="row" >
+          <div class="col-md-8" style="text-align:justify;  border-right: 2px solid;">
+            <h1>A União Europeia</h1>
+            <p> 
+                A União Europeia foi criada com o objetivo de evitar as guerras sangrentas entre países vizinhos, que culminaram na Segunda Guerra Mundial. 
+            </p>
+            <p> A primeira organização supranacional europeia foi a Comunidade Europeia do Carvão e do Aço (CECA), formada pelos seguintes países: Alemanha Ocidental, Bélgica, França, Itália, Luxemburgo e Países Baixos. Originou-se em 1950 como consequência do conflito fronteriços entre a Alemanha e a França pelo domínio do carvão e minérios de ferro presentes nesse local. Os seus inspiradores foram Robert Schuman, ministro francês dos Negócios Estrangeiros, e Jean Monnet, o seu primeiro presidente.                             
+            </p>
+            <p>
+              Em 1957, por meio dos Tratados de Roma, funda-se a Comunidade Econômica Europeia (CEE), uma organização internacional, com a finalidade de estabelecer um mercado comum europeu. Os primeiros países signatários foram França, Itália, Alemanha Ocidental, Bélgica, Holanda e Luxemburgo. O tratado estabelecia um mercado e impostos alfandegários comuns, uma política conjunta para a agricultura e políticas comuns para o trânsito de mão de obra e transportes. Também criou instituições comuns para o desenvolvimento econômico dos países signatários.
+              </p>
+              <p> Nos anos seguintes, aderem à CEE o Reino Unido, Irlanda, Dinamarca, Grécia, Portugal e Espanha. Após o Tratado de Maastricht (TUE), em 1992, muda-se o nome para Comunidade Europeia (CE). Com o TUE cria-se oficialmente a União Europeia (UE).
+            </p>
+              
+              <p>
+              A UE consiste em 28 Estados-Membros ( o Reino Unido está em processo de saída ) e de um sistema de instituições supranacionais independentes e de abirtragens intergovernamentais entre os Estados-membros. As mais importantes instituições da UE são a Comissão Europeia, o Conselho da União Europeia, o Conselho Europeu, o Tribunal de Justiça da União Europeia e o Banco Central Europeu.
+                  
+              Por meio de políticas e leis aplicáveis a todos os seus Estados-membros, a UE busca assegurar a livre circulação de pessoas, bens, serviços e capitais, legislar assuntos comuns na justiça e manter políticas comuns de comércio, agricultura, pesca e desenvolvimento regional.
+              </p>
+              
+              <p>
+              
+              Em 1999, foi criada a Zona Euro, a união monetária, composta por 19 Estados-Membros atualmente. O Euro é a moeda única desses Estados-Membros, substituindo as antigas moedas nacionais. As notas e moedas de euro foram definitavemente introduzidas nos países em 2002. Todas as moedas possuem uma face comum, enquanto a outra face é definida por cada um dos Estados-Membros e inclui símbolos que representam a origem e nacionalidade de cada um dos países. O banco que controla as emissões do Euro e realiza a política monetária da União Europeia é o Banco Central Europeu.
+              </p>
+  
+          </div>
+          <div class="col-md-4">
+              <div class="row">
+                
+                <div class="col-md-12">
+                    <div class="row">
+                        <h4 style="text-align:center; ">Bandeira da União Europeia</h4>
+                        <img src="imagem/bandeira.png" class="img-responsive" style="position:relative; left:25%;max-width: 50%; ">
+                        
+                    </div>
+                    
+                    <div class="row" style="position:relative; top: 150px">
+                        <h4 style="text-align:center; ">Entrada dos páises na UE ao longo dos anos</h4>
+                        <img src="imagem/union.gif" class="img-responsive" style="">
+                        <p style="text-align:right;">Fonte:Wikipédia</p>
+                   </div>
+                    <div class="row" style="text-align:right;"> <p>Fonte:Wikipédia</p>
+                    </div>
+                   <div class="row"></div>
+                    </div>
+                  </div>
+           </div>
+               
+        </div>
+     </div>
+   </div>
+   <div class="section" id="descricao">
+       
+      <div class="section">
+      
+           <div class="section">
+        <!-- END OF THE CSSMap - Europe -->
+       <!-- <div class="container"> -->
+          <div class="row">
+            <div class="col-md-12">
+              <div class="section">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-6">
+
+                       <!-- MAP -->
+        <div id="display-map" class="display-demo-map">
+          <!-- CSSMap - Europe -->
+          <div id="map-europe">
+            <ul class="europe">
+              <li class="eu1">
+                <a href="#albania">Albânia</a>
+              </li>
+              <li class="eu2">
+                <a href="#andorra">Andorra</a>
+              </li>
+              <li class="eu3">
+                <a href="#austria">Ástria</a>
+              </li>
+              <li class="eu4">
+                <a href="#belarus">Bielorrússia</a>
+              </li>
+              <li class="eu5">
+                <a href="#belgium">Bélgica</a>
+              </li>
+              <li class="eu6">
+                <a href="#bosnia-and-herzegovina">Bósnia e Herzegovina</a>
+              </li>
+              <li class="eu7">
+                <a href="#bulgaria">Bulgária</a>
+              </li>
+              <li class="eu8">
+                <a href="#croatia">Croácia</a>
+              </li>
+              <li class="eu9">
+                <a href="#cyprus">Chipre</a>
+              </li>
+              <li class="eu10">
+                <a href="#czech-republic">República Checa</a>
+              </li>
+              <li class="eu11">
+                <a href="#denmark">Dinamarca</a>
+              </li>
+              <li class="eu12">
+                <a href="#estonia">Estónia</a>
+              </li>
+              <li class="eu13">
+                <a href="#france">França</a>
+              </li>
+              <li class="eu14">
+                <a href="#finland">Finlândia</a>
+              </li>
+              <li class="eu15">
+                <a href="#georgia">Geórgia</a>
+              </li>
+              <li class="eu16">
+                <a href="#germany">Alemana</a>
+              </li>
+              <li class="eu17">
+                <a href="#greece">Grécia</a>
+              </li>
+              <li class="eu18">
+                <a href="#hungary">Hungria</a>
+              </li>
+              <li class="eu19">
+                <a href="#iceland">Islândia</a>
+              </li>
+              <li class="eu20">
+                <a href="#ireland">Irlanda</a>
+              </li>
+              <li class="eu21">
+                <a href="#san-marino">San Marino</a>
+              </li>
+              <li class="eu22">
+                <a href="#italy">Itália</a>
+              </li>
+              <li class="eu23">
+                <a href="#kosovo">Kosovo</a>
+              </li>
+              <li class="eu24">
+                <a href="#latvia">Letónia</a>
+              </li>
+              <li class="eu25">
+                <a href="#liechtenstein">Liechtenstein</a>
+              </li>
+              <li class="eu26">
+                <a href="#lithuania">Lituânia</a>
+              </li>
+              <li class="eu27">
+                <a href="#luxembourg">Luxemburgo</a>
+              </li>
+              <li class="eu28">
+                <a href="#macedonia">República da Macedônia </a>
+              </li>
+              <li class="eu29">
+                <a href="#malta">Malta</a>
+              </li>
+              <li class="eu30">
+                <a href="#moldova">Moldávia</a>
+              </li>
+              <li class="eu31">
+                <a href="#monaco">Mônaco</a>
+              </li>
+              <li class="eu32">
+                <a href="#montenegro">Montenegro</a>
+              </li>
+              <li class="eu33">
+                <a href="#netherlands">Países Baixos</a>
+              </li>
+              <li class="eu34">
+                <a href="#norway">Noruega</a>
+              </li>
+              <li class="eu35">
+                <a href="#poland">Polônia</a>
+              </li>
+              <li class="eu36">
+                <a href="#portugal">Portugal</a>
+              </li>
+              <li class="eu37">
+                <a href="#romania">Romênia</a>
+              </li>
+              <li class="eu38">
+                <a href="#russian-federation">Rússia</a>
+              </li>
+              <li class="eu39">
+                <a href="#serbia">Sérvia</a>
+              </li>
+              <li class="eu40">
+                <a href="#slovakia">Eslováquia</a>
+              </li>
+              <li class="eu41">
+                <a href="#slovenia">Eslovênia</a>
+              </li>
+              <li class="eu42">
+                <a href="#spain">Espanha</a>
+              </li>
+              <li class="eu43">
+                <a href="#sweden">Suécia</a>
+              </li>
+              <li class="eu44">
+                <a href="#switzerland">Suíça</a>
+              </li>
+              <li class="eu45">
+                <a href="#turkey">Turquia</a>
+              </li>
+              <li class="eu46">
+                <a href="#ukraine">Ucrânia</a>
+              </li>
+              <li class="eu47">
+                <a href="#united-kingdom">Reino Unido</a>
+              </li>
+              <!-- <li class="eu48"><a href="#england">England</a></li>
+          <li class="eu49"><a href="#isle-of-man">Isle of Man</a></li>
+          <li class="eu50"><a href="#northern-ireland">Northern Ireland</a></li>
+          <li class="eu51"><a href="#scotland">Scotland</a></li>
+          <li class="eu52"><a href="#wales">Wales</a></li>
+        -->
+            </ul>
+          </div>
+
+          </div>
+        </div>
+        <div class="col-md-6" style="text-align:justify">
+
+        <div class="demo-agents-list wrapper" id="demo-agents">
+        <ul>
+          <li id="albania">
+            <h3>Albania</h3>
+            <p>Some info about Albania, or list of addresses, or anything else you want
+              to display here.</p>
+            <p>In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit,
+              sem diam.</p>
+          </li>
+          <li id="andorra">
+            <h3>Andorra</h3>
+            <p>Some info about Andorra, or list of addresses, or anything else you want
+              to display here.</p>
+            <p>Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent
+              eget neque eu eros interdum.</p>
+          </li>
+          <li id="austria">
+            <h3>Austria</h3>
+            <p>Some info about Austria, or list of addresses, or anything else you want
+              to display here.</p>
+            <p>In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit,
+              sem diam.</p>
+          </li>
+          <li id="belarus">
+            <h3>Belarus</h3>
+            <p>Some info about Belarus, or list of addresses, or anything else you want
+              to display here.</p>
+            <p>Donec viverra auctor lobortis. Pellentesque eu est a nulla placerat dignissim.
+              Morbi a enim in magna semper.</p>
+          </li>
+          <li id="belgium">
+            <h3>Belgium</h3>
+            <p>Some info about Belgium, or list of addresses, or anything else you want
+              to display here.</p>
+            <p>Quisque lacus quam, egestas ac tincidunt a, lacinia vel velit. Aenean
+              facilisis nulla vitae urna tincidunt congue sed.</p>
+          </li>
+          <li id="bosnia-and-herzegovina">
+            <h3>Bosnia and Herzegovina</h3>
+            <p>Some info about Bosnia and Herzegovina, or list of addresses, or anything
+              else you want to display here.</p>
+            <p>Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent
+              eget neque eu eros interdum.</p>
+          </li>
+          <li id="bulgaria">
+            <h3>Bulgária</h3>
+            Possui um PIB de 48.95 bilhões de EUR, com PIB per capta em torno de 17,2 milhões.
+            Passou a ser integrante da União Europeia em meados de 2007 e não membro da zona do Euro. 
+            Em 2014 obtiveram: 30 bilhões em exportação e 34,4 bilhões em importações.
+            Possui um mercado ativo com países pertencentes à União Europeia, abrindo o mercado extrabloco.
+            Sua pauta de exportação se concentra em alguns produtos, tais como: Petróleo Refinado, Cobre Refinado, Medicamentos Finais, Cobre Bruto e Trigo. Nas importações há: Petróleo Bruto, Minério de Cobre, Petróleo Gás, Petróleo Refinado e Medicamentos Finais.
+            Países extrablocos comercializa-se: Fio Isolado, Lenha, Serra de Madeira, Óleos de Sementes e Vidro. Principalmente com a Turquia.
+          </li>
+          <li id="croatia">
+            <h3>Cróacia</h3>
+            Possui um PIB de 48.73 bilhões de EUR, com PIB per capta em torno de 21,6 milhões.
+            Passou a ser integrante da União Europeia em meados de 2007 e não membro da zona do Euro.  
+            Em 2014 obtiveram: 13,3 bilhões em exportação e 22,5 bilhões em importações.
+            Possui um mercado ativo com países pertencentes à União Europeia, abrindo o mercado extrabloco.
+            Sua pauta de exportação se concentra em alguns produtos, tais como: Transformadores Elétricos, Serra de Madeira, Petróleo Refinado e Medicamentos Embalados. Nas importações há: Petróleo Bruto, Carros, Petróleo Refinado, Petróleo Bruto e Petróleo em Gás.
+            Países extrablocos comercializa-se: Chocolate, Porcos, Cimento, Rolo de Tabaco, Limão, Sucata de Ferro. Principalmente com a Sérvia.
+          </li>
+          <li id="cyprus">
+            <h3>Chipre</h3>
+            Possui um PIB de 19.32 bilhões de EUR, com PIB per capta em torno de 30,2 milhões.
+            Passou a ser integrante da União Europeia em meados de 2004; em meados de 2008 aderiu a zona do Euro.
+            Em 2014 obtiveram: 3,64 bilhões em exportação e 8,69 bilhões em importações.
+            Possui um mercado ativo com países pertencentes à União Europeia, abrindo o mercado extrabloco.
+            Sua pauta de exportação se concentra em alguns produtos, tais como: Medicamento embalado, Petróleo Refinado, Queijo, Equipamento de Transmissão e Navio de Carga e Passageiros. Nas importações há: Petróleo refinado, Navio de Carga e Passageiros, Carros, Botes de Recreação e Medicamentos Embalados.
+            Países extrablocos comercializa-se: Petróleo em Gás, Cimento, Peixe Fresco, Telefones, Bebidas Destiladas, Trailers. Principalmente com Israel. 
+          </li>
+          <li id="czech-republic">
+            <h3>República Tcheca</h3>
+            Possui um PIB de 67.10 bilhões de EUR, com PIB per capta em torno de 31,2 milhões.
+            Passou a ser integrante da União Europeia em meados de 2007 e não membro da zona do Euro. 
+            Em 2014 obtiveram: 162 bilhões em exportação e 152 bilhões em importações.
+            Possui um mercado ativo com países pertencentes à União Europeia, abrindo o mercado extrabloco.
+            Sua pauta de exportação se concentra em alguns produtos, tais como: Carros, Fio Isolado, Partes de Veículos, Computadores e Telefones. Nas importações há: Petróleo Bruto, Partes de Veículos, Peças de Máquinas de Escritório e Computadores.
+            Países extrablocos comercializa-se: Gravação de Som, Tubos de Plástico, Ovos, Equipamentos Esportivos e Instrumentos Médicos. Principalmente com a Rússia.
+          </li>
+          <li id="denmark">
+            <h3>Denmark</h3>
+            <p>Some info about Denmark, or list of addresses, or anything else you want
+              to display here.</p>
+            <p>In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit,
+              sem diam.</p>
+          </li>
+          <li id="estonia">
+            <h3>Estônia</h3>
+            Possui um PIB de 22.69 bilhões de EUR, com PIB per capta em torno de 28,1 milhões.
+            Passou a ser integrante da União Europeia em meados de 2004; em meados de 2011 aderiu a zona do Euro.
+            Em 2014 obtiveram: 17,8 bilhões em exportação e 19,8 bilhões em importações.
+            Possui um mercado ativo com países pertencentes à União Europeia, abrindo o mercado extrabloco.
+            Sua pauta de exportação se concentra em alguns produtos, tais como: Telefones, Petróleo Bruto, Petróleo Refinado, Carros e Construções Pré-Fabricadas. Nas importações há: Petróleo Refinado, Telefones, Carros, Circuitos Integrados e Medicamentos Embalados.
+            Países extrablocos comercializa-se: Bebidas Destiladas, Hidrogénio, Pneus de Borracha, Cimento, Metais Preciosos, Veículos de Larga Construção, Leite. Principalmente com a Rússia.
+          </li>
+          <li id="france">
+            <h3>França</h3>
+            Possui um PIB de 2,421.68 bilhões de EUR, com PIB per capta em torno de 39,3 milhões.
+            É um dos países fundadores do bloco econômico, em 1958; em meados de 1999 aderiu a zona do Euro. 
+            Em 2014 obtiveram: 571 bilhões em exportação e 654 bilhões em importações.
+            Possui um mercado ativo com países pertencentes à União Europeia, abrindo o mercado extrabloco.
+            Sua pauta de exportação se concentra em alguns produtos, tais como: Aeronaves, Carros, Parte de Veículos, Petróleo Refinado e Medicamentos Finais. Nas importações há: Petróleo Bruto, Petróleo Gás, Petróleo Refinado, Medicamentos Finais.
+            Países extrablocos comercializa-se: Aeronaves, Vinho, Bebidas Destiladas, Joias e Turbinas a Gás. Principalmente com os Estados Unidos.
+          </li>
+          <li id="finland">
+            <h3>Finlândia</h3>
+            Possui um PIB de 229.81 bilhões de EUR, com PIB per capta em torno de 40,7 milhões.
+            Passou a ser integrante da União Europeia em meados de 1995; em meados de 1999 aderiu a zona do Euro.
+            Em 2014 obtiveram: 77,3 bilhões em exportação e 72,8 bilhões em importações.
+            Possui um mercado ativo com países pertencentes à União Europeia, abrindo o mercado extrabloco.
+            Sua pauta de exportação se concentra em alguns produtos, tais como: Petróleo Refinado, Papel Revestido, Grandes Chapas de Aço, Madeira Serrada e Sulfato de Celulose. Nas importações há: Petróleo Bruto, Petróleo Refinado, Computadores, Carros e Medicamentos Embalados.
+            Países extrablocos comercializa-se: Papel Revestido, Transformadores Elétricos, Níquel Bruto, Instrumentos Médicos, Aeronaves, Celulose. Principalmente com os Estados Unidos.
+          </li>
+          <li id="georgia">
+            <h3>Georgia</h3>
+            <p>Some info about Georgia, or list of addresses, or anything else you want
+              to display here.</p>
+            <p>Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent
+              eget neque eu eros interdum.</p>
+          </li>
+          <li id="germany">
+            <h3>Alemanha</h3>
+            Possui um PIB de 3,355.77 bilhões de EUR, com PIB per capta em torno de 46,4 milhões.
+            É um dos países fundadores do bloco econômico, em 1958; em meados de 1999 aderiu a zona do Euro. 
+            Em 2014 obtiveram: 1,41 trilhões em exportação e 1,13 trilhões nas importações.
+            Possui um mercado ativo com países pertencentes à União Europeia, abrindo o mercado extrabloco.
+            Sua pauta de exportação se concentra em alguns produtos, tais como: Carros, Partes de Veículos, Medicamento Final e Aeronaves. Nas importações há: Petróleo Bruto, Carros, Partes de Veículos, Petróleo Refinado e Computadores.
+            Países extrabloco comercializa-se: Computadores, Motores Elétricos, Microfones, Circuito integrado. 
+          </li>
+          <li id="greece">
+            <h3>Grécia</h3>
+            Possui um PIB de 195.21 bilhões de EUR, com PIB per capta em torno de 26,9 milhões.
+            Passou a ser integrante da União Europeia em meados de 1981; em meados de 2001 aderiu a zona do Euro. 
+            Em 2014 obtiveram: 33.2 bilhões em exportação e 60.8 bilhões em importações.
+            Possui um mercado ativo com países pertencentes à União Europeia, abrindo o mercado extrabloco.
+            Sua pauta de exportação se concentra em alguns produtos, tais como: Peixe Fresco, Alumínio Galvanizado, Petróleo Refinado e Medicamentos Finais. Nas importações há: Navios de Passageiros e de Carga Petróleo Bruto, Petróleo Gás, Petróleo Refinado, Medicamentos Finais.
+            Países extrablocos comercializa-se: Algodão Cru, Computador, Polímeros de Propileno, Ouro. Principalmente com a Turquia.
+          </li>
+          <li id="hungary">
+            <h3>Hungria</h3>
+            Possui um PIB de 120.69 bilhões de EUR, com PIB per capta em torno de 25,1 milhões.
+            Passou a ser integrante da União Europeia em meados de 2004 e não membro da zona do Euro.
+            Em 2014 obtiveram: 106 bilhões em exportação e 99 bilhões em importações.
+            Possui um mercado ativo com países pertencentes à União Europeia, abrindo o mercado extrabloco.
+            Sua pauta de exportação se concentra em alguns produtos, tais como: Motores a Ignição, Carros, Computadores e Medicamentos Finais. Nas importações há: Petróleo Refinado, Parte de Veículos, Petróleo Bruto, Petróleo Gás e Partes de Engrenagem.
+            Países extrablocos comercializa-se: Equipamentos de Transmissão, Acessórios de Transmissão, Telefones, Turbinas a Gás. Principalmente com a China.
+          </li>
+          <li id="iceland">
+            <h3>Iceland</h3>
+            <p>Some info about Iceland, or list of addresses, or anything else you want
+              to display here.</p>
+            <p>Suspendisse dictum feugiat nisl ut dapibus. Mauris iaculis porttitor posuere.
+              Praesent id metus massa, ut.</p>
+          </li>
+          <li id="ireland">
+            <h3>Irlanda</h3>
+            Possui um PIB de 238.02 bilhões de EUR, com PIB per capta em torno de 49,4 milhões.
+            Passou a ser integrante da União Europeia em meados de 1973 e membro da zona do Euro em 2015.
+            Em 2014 obtiveram: 142 bilhões em exportação e 72,6 	bilhões em importações.
+            Possui um mercado ativo com países pertencentes à União Europeia, abrindo o mercado extrabloco.
+            Sua pauta de exportação se concentra em alguns produtos, tais como: Medicamento Final, Composto de Nitrogénio, Ácidos, Óleos e Álcool Industrializados. Nas importações há: Computadores, Petróleo Refinado, Carros, Produtos Vegetais, Instrumentos Médicos.
+            Países extrablocos comercializa-se: Medicamentos Embalados, Ácidos Nucleicos, Utensílios Ortopédicos. Principalmente com os Estados Unidos, que continham 20% do total de exportação.
+          </li>
+          <li id="san-marino">
+            <h3>San Marino</h3>
+            <p>Some info about San Marino, or list of addresses, or anything else you
+              want to display here.</p>
+            <p>Donec viverra auctor lobortis. Pellentesque eu est a nulla placerat dignissim.
+              Morbi a enim in magna semper.</p>
+          </li>
+          <li id="italy">
+            <h3>Itália</h3>
+            Possui um PIB de 1,814.76 bilhões de EUR, com PIB per capta em torno de 35,5 milhões.
+            É um dos países fundadores do bloco econômico, em 1958; em meados de 1999 aderiu a zona do Euro.  
+            Em 2014 obtiveram: 509 bilhões em exportação e 466 bilhões em importações.
+            Possui um mercado ativo com países pertencentes à União Europeia, abrindo o mercado extrabloco.
+            Sua pauta de exportação se concentra em alguns produtos, tais como: Carros, Válvulas, Partes de Veículos, Petróleo Refinado e Medicamentos Finais. Nas importações há: Petróleo Bruto, Petróleo em Gás, Petróleo Refinado e Medicamentos Finais.
+            Países extrablocos comercializa-se: Ignição a Combustão, Vinho, Óleo de Oliva Bruto, Queijo, Tratores. Principalmente com os Estados Unidos.
+          </li>
+          <li id="kosovo">
+            <h3>Kosovo</h3>
+            <p>Some info about Kosovo, or list of addresses, or anything else you want
+              to display here.</p>
+            <p>Donec viverra auctor lobortis. Pellentesque eu est a nulla placerat dignissim.
+              Morbi a enim in magna semper.</p>
+          </li>
+          <li id="latvia">
+            <h3>Letónia</h3>
+            Possui um PIB de 27.04 bilhões de EUR, com PIB per capta em torno de 23,5 milhões.
+            Passou a ser integrante da União Europeia em meados de 2004; em meados de 2014 aderiu a zona do Euro.
+            Em 2014 obtiveram: 14,3 bilhões em exportação e 17,2 bilhões em importações.
+            Possui um mercado ativo com países pertencentes à União Europeia, abrindo o mercado extrabloco.
+            Sua pauta de exportação se concentra em alguns produtos, tais como: Petróleo Refinado, Petróleo Bruto, Bebidas Destiladas, Equipamentos de Transmissão e Madeira Serrada. Nas importações há: Carros, Petróleo em Gás, Medicamentos Embalados, Equipamentos de Transmissão e Petróleo Refinado.
+            Países extrablocos comercializa-se: Vinho, Cimento, Brochuras, Flores, Motores Elétricos, Centrífugas, Chocolate, Sorvete. Principalmente com a Rússia. 
+          </li>
+          <li id="liechtenstein">
+            <h3>Liechtenstein</h3>
+            <p>Some info about Liechtenstein, or list of addresses, or anything else
+              you want to display here.</p>
+            <p>Vivamus rutrum nunc non neque consectetur quis placerat neque lobortis.
+              Nam vestibulum, arcu sodales feugiat.</p>
+          </li>
+          <li id="lithuania">
+            <h3>Lituânia</h3>
+            Possui um PIB de 41.24 bilhões de EUR, com PIB per capta em torno de 27,7 milhões.
+            Passou a ser integrante da União Europeia em meados de 2004; em meados de 2015 aderiu a zona do Euro.
+            Em 2014 obtiveram: 30,3 bilhões em exportação e 34,5 bilhões em importações.
+            Possui um mercado ativo com países pertencentes à União Europeia, abrindo o mercado extrabloco.
+            Sua pauta de exportação se concentra em alguns produtos, tais como: Petróleo refinado, Móveis, Trigo e Adubos. Nas importações há: Carros Petróleo em Gás, Medicamentos Embalados e Petróleo Bruto.
+            Países extrablocos comercializa-se: Vinho, Queijo, Cereais, Tomates, Chocolate, Cerveja, Bebidas destiladas, Centrífuga. Principalmente com a Rússia.
+          </li>
+          <li id="luxembourg">
+            <h3>Luxemburgo</h3>
+            Possui um PIB de 454.04 bilhões de EUR, com PIB per capta em torno de 43,4 milhões.
+            Passou a ser integrante da União Europeia em meados de 2004; em meados de 2007 aderiu a zona do Euro.  
+            Em 2014 obtiveram: 379 bilhões em exportação e 449 bilhões em importações.
+            Possui um mercado ativo com países pertencentes à União Europeia, abrindo o mercado extrabloco.
+            Sua pauta de exportação se concentra em alguns produtos, tais como: Petróleo Refinado, Diamantes, Carros, Petróleo em Gás e Medicamentos Finais. Nas importações há: Carros, Medicamentos Finais, Petróleo Bruto, Diamantes e Petróleo Refinado.
+            Países extrablocos comercializa-se: Cloreto de Vinilo, Chocolate, Navios para fins Especiais, Sucatas em Alumínios. Principalmente com a Índia.
+          </li>
+          <li id="macedonia">
+            <h3>Macedonia F.Y.R.O.M.</h3>
+            <p>Some info about Macedonia F.Y.R.O.M., or list of addresses, or anything
+              else you want to display here.</p>
+            <p>Donec viverra auctor lobortis. Pellentesque eu est a nulla placerat dignissim.
+              Morbi a enim in magna semper.</p>
+          </li>
+          <li id="malta">
+            <h3>Malta</h3>
+            Possui um PIB de 9.64 bilhões de EUR.
+            Passou a ser integrante da União Europeia em meados de 1995 e não membro da zona do Euro.
+            Em 2014 obtiveram: 6,2 bilhões em exportação e 11,4 bilhões em importações.
+            Possui um mercado ativo com países pertencentes à União Europeia, abrindo o mercado extrabloco.
+            Sua pauta de exportação se concentra em alguns produtos, tais como: Petróleo Refinado, Circuito Integrado, Medicamentos Embalados, Dispositivos Semicondutores e Bichos de Pelúcias. Nas importações há: Navio de Carga e Passageiros, Circuito Integrado, Barcos de Passeio e Petróleo Refinado.
+            Países extrablocos comercializa-se: Sucata de Cobre, Bateria Elétrica, Transformador Elétrico. Principalmente com a Coréia do Sul.
+          </li>
+          <li id="moldova">
+            <h3>Moldova</h3>
+            <p>Some info about Moldova, or list of addresses, or anything else you want
+              to display here.</p>
+            <p>Suspendisse dictum feugiat nisl ut dapibus. Mauris iaculis porttitor posuere.
+              Praesent id metus massa, ut.</p>
+          </li>
+          <li id="monaco">
+            <h3>Monaco</h3>
+            <p>Some info about Monaco, or list of addresses, or anything else you want
+              to display here.</p>
+            <p>Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent
+              eget neque eu eros interdum.</p>
+          </li>
+          <li id="montenegro">
+            <h3>Montenegro</h3>
+            <p>Some info about Montenegro, or list of addresses, or anything else you
+              want to display here.</p>
+            <p>Phasellus quis est sed turpis sollicitudin venenatis sed eu odio. Praesent
+              eget neque eu eros interdum.</p>
+          </li>
+          <li id="netherlands">
+            <h3>Países Baixos</h3>
+            Possui um PIB de 454.04 bilhões de EUR, com PIB per capta em torno de 48,3 milhões.
+            É um dos países fundadores do bloco econômico, em 1958; em meados de 1999 aderiu a zona do Euro.  
+            Em 2014 obtiveram: 525 bilhões em exportação e 552 bilhões em importações.
+            Possui um mercado ativo com países pertencentes à União Europeia, abrindo o mercado extrabloco.
+            Sua pauta de exportação se concentra em alguns produtos, tais como: Petróleo Refinado, Computadores, Petróleo em Gás, Petróleo Bruto e Medicamentos Finais. Nas importações há: Telefones, Petróleo Bruto, Computadores, Petróleo Refinado e Petróleo em Gás.
+            Países extrablocos comercializa-se: Sangue Humano e Animal, Cerveja, Cavalos, Sucata de Ferro, Equipamentos de Raio-X. Principalmente com os Estados Unidos.
+          </li>
+          <li id="norway">
+            <h3>Norway</h3>
+            <p>Some info about Norway, or list of addresses, or anything else you want
+              to display here.</p>
+            <p>Vivamus rutrum nunc non neque consectetur quis placerat neque lobortis.
+              Nam vestibulum, arcu sodales feugiat.</p>
+          </li>
+          <li id="poland">
+            <h3>Polônia</h3>
+            Possui um PIB de 474.78 bilhões de EUR, com PIB per capta em torno de 25,3 milhões.
+            Passou a ser integrante da União Europeia em meados de 2004 e não membro da zona do Euro.
+            Em 2014 obtiveram: 205 bilhões em exportação e 218 bilhões em importações.
+            Possui um mercado ativo com países pertencentes à União Europeia, abrindo o mercado extrabloco.
+            Sua pauta de exportação se concentra em alguns produtos, tais como: Partes de Veículos, Carros, Móveis, Equipamento de Vídeo e Assentos. Nas importações há: Petróleo Bruto, Partes de Veículos, Carros, Computadores, Medicamentos Finais.
+            Países extrablocos comercializa-se: Acessórios de Transmissão, Navios de Pesca, Maçãs e Peras, Equipamentos Médicos, Tubos de Plásticos. Principalmente com a Rússia.
+          </li>
+          <li id="portugal">
+            <h3>Portugal</h3>
+            Possui um PIB de 198.93 bilhões de EUR, com PIB per capta em torno de 28,8 milhões.
+            Passou a ser integrante da União Europeia em meados de 1986; em meados de 1999 aderiu a zona do Euro.
+            Em 2014 obtiveram: 63,1 bilhões em exportação e 79,5 bilhões em importações.
+            Possui um mercado ativo com países pertencentes à União Europeia, abrindo o mercado extrabloco.
+            Sua pauta de exportação se concentra em alguns produtos, tais como: Petróleo Refinado, Carros, Partes de Veículos, Calçados de Couro e Papel Não Revestido. Nas importações há: Petróleo Bruto, Carros, Petróleo em Gás, Partes de Veículos e Medicamentos Finais.
+            Países extrablocos comercializa-se: Cerveja, Vinho, Estruturas de Ferro, Queijo, Leite, Óleo de Soja, Madeiras, Papel Higiênico. Principalmente com a Angola.
+          </li>
+          <li id="romania">
+            <h3>Romênia</h3>
+            Possui um PIB de 177.95 bilhões de EUR, com PIB per capta em torno de 20,3 milhões.
+            Passou a ser integrante da União Europeia em meados de 2007 e não membro da zona do Euro. 
+            Em 2014 obtiveram: 71,4 bilhões em exportação e 75,6 bilhões em importações.
+            Possui um mercado ativo com países pertencentes à União Europeia, abrindo o mercado extrabloco.
+            Sua pauta de exportação se concentra em alguns produtos, tais como: Partes de Veículos, Carros, Fio Isolado, Petróleo Refinado e Trigo. Nas importações há: Petróleo Bruto, Peças de Veículos, Medicamentos Embalados, Carros e Fio Isolado.
+            Países extrablocos comercializa-se: Sucata de Ferro, Ferro Laminado, Óleo de Alcatrão de Carvão, Painéis de Fibra de Madeira e Ouro. Principalmente com a Turquia.
+          </li>
+          <li id="russian-federation">
+            <h3>Russian Federation</h3>
+            <p>Some info about Russian Federation, or list of addresses, or anything
+              else you want to display here.</p>
+            <p>Quisque lacus quam, egestas ac tincidunt a, lacinia vel velit. Aenean
+              facilisis nulla vitae urna tincidunt congue sed.</p>
+          </li>
+          <li id="serbia">
+            <h3>Serbia</h3>
+            <p>Some info about Serbia, or list of addresses, or anything else you want
+              to display here.</p>
+            <p>In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit,
+              sem diam.</p>
+          </li>
+          <li id="slovakia">
+            <h3>Slovakia</h3>
+            <p>Some info about Slovakia, or list of addresses, or anything else you want
+              to display here.</p>
+            <p>Donec viverra auctor lobortis. Pellentesque eu est a nulla placerat dignissim.
+              Morbi a enim in magna semper.</p>
+          </li>
+          <li id="slovenia">
+            <h3>Eslovênia</h3>
+            Possui um PIB de 42.75 bilhões de EUR, com PIB per capta em torno de 30,4 milhões.
+            Passou a ser integrante da União Europeia em meados de 2004; em meados de 2007 aderiu a zona do Euro.  
+            Em 2014 obtiveram: 30,7 bilhões em exportação e 30,2 bilhões em importações.
+            Possui um mercado ativo com países pertencentes à União Europeia, abrindo o mercado extrabloco.
+            Sua pauta de exportação se concentra em alguns produtos, tais como: Carros, Medicamentos Embalados, Partes de Veículos, Iluminação de Equipamentos Eléctricos e Sinalização e Petróleo Refinado. Nas importações há: Petróleo Refinado, Carros, Petróleo em Gás, Medicamentos Embalados e Partes de Veículos.
+            Países extrablocos comercializa-se: Refrigeradores, Pneus de Borracha, Tratores, Aquecedores Elétricos, Madeira. Principalmente com a Sérvia.
+          </li>
+          <li id="spain">
+            <h3>Espanha</h3>
+            Possui um PIB de 1199.06 bilhões de EUR, com PIB per capta em torno de 33,6 milhões.
+            Passou a ser integrante da União Europeia em meados de 1986; em meados de 1999 aderiu a zona do Euro.
+            Em 2014 obtiveram: 299 bilhões em exportação e 342 bilhões em importações.
+            Possui um mercado ativo com países pertencentes à União Europeia, abrindo o mercado extrabloco.
+            Sua pauta de exportação se concentra em alguns produtos, tais como: Carros, Petróleo Refinado, Caminhão de Entrega, Partes de Veículos e Medicamentos Embalados. Nas importações há: Petróleo em Gás, Partes de Veículos, Medicamentos Embalados, Carros e Petróleo Bruto.
+            Países extrablocos comercializa-se: Transmissões, Vinho, Queijo, Pinturas, Tubos de Ferro, Pneus de Borracha, Perfumes. Principalmente com os Estados Unidos.
+          </li>
+          <li id="sweden">
+            <h3>Suécia</h3>
+            Possui um PIB de 492.62 bilhões de EUR, com PIB per capta em torno de 45,3 milhões.
+            Passou a ser integrante da União Europeia em meados de 1995 e não membro da zona do Euro. 
+            Em 2014 obtiveram: 159 bilhões em exportação e 154 bilhões em importações.
+            Possui um mercado ativo com países pertencentes à União Europeia, abrindo o mercado extrabloco.
+            Sua pauta de exportação se concentra em alguns produtos, tais como: Petróleo Refinado, Telefones, Caros e Medicamentos Finais. Nas importações há: Petróleo Bruto, Carros, Computadores, Partes de Veículos e Petróleo Refinado.
+            Países extrablocos comercializa-se: Turbinas a Gás, Centrífugas, Transmissões, Ignições a Combustão, Caminhões de Carga. Principalmente com os Estados Unidos.
+          </li>
+          <li id="switzerland">
+            <h3>Suíça</h3>
+            Possui um PIB de 664.74 bilhões de EUR, com PIB per capta em torno de 59,5 milhões.
+            Passou a ser integrante da União Europeia em meados de 1995 e não membro da zona do Euro.
+            Em 2014 obtiveram: 296 bilhões em exportação e 281 bilhões em importações.
+            Possui um mercado ativo com países pertencentes à União Europeia, abrindo o mercado extrabloco.
+            Sua pauta de exportação se concentra em alguns produtos, tais como: Ouro, Sangue Humano e Animal, Metal para Base de Relógios, Metais Preciosos para Relógios. Nas importações há: Ouro, Joias, Carros, Sangue Humano e Animal, Medicamentos Embalados.
+            Países extrablocos comercializa-se: Platinum, Vinho, Comida para Animais, Circuito Integrado, Canetas. Principalmente com Hong Kong.
+          </li>
+          <li id="turkey">
+            <h3>Turkey</h3>
+            <p>Some info about Turkey, or list of addresses, or anything else you want
+              to display here.</p>
+            <p>Vivamus rutrum nunc non neque consectetur quis placerat neque lobortis.
+              Nam vestibulum, arcu sodales feugiat.</p>
+          </li>
+          <li id="ukraine">
+            <h3>Ukraine</h3>
+            <p>Some info about Ukraine, or list of addresses, or anything else you want
+              to display here.</p>
+            <p>Quisque lacus quam, egestas ac tincidunt a, lacinia vel velit. Aenean
+              facilisis nulla vitae urna tincidunt congue sed.</p>
+          </li>
+          <li id="united-kingdom">
+            <h3>United Kingdom</h3>
+            <p>Some info about United Kingdom, or list of addresses, or anything else
+              you want to display here.</p>
+            <p>Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec
+              congue lacinia dui, a porttitor.</p>
+          </li>
+          <li id="england">
+            <h3>England</h3>
+            <p>Some info about England, or list of addresses, or anything else you want
+              to display here.</p>
+            <p>Donec viverra auctor lobortis. Pellentesque eu est a nulla placerat dignissim.
+              Morbi a enim in magna semper.</p>
+          </li>
+          <li id="isle-of-man">
+            <h3>Isle of Man</h3>
+            <p>Some info about Isle of Man, or list of addresses, or anything else you
+              want to display here.</p>
+            <p>Proin quis tortor orci. Etiam at risus et justo dignissim congue. Donec
+              congue lacinia dui, a porttitor.</p>
+          </li>
+          <li id="northern-ireland">
+            <h3>Northern Ireland</h3>
+            <p>Some info about Northern Ireland, or list of addresses, or anything else
+              you want to display here.</p>
+            <p>Quisque lacus quam, egestas ac tincidunt a, lacinia vel velit. Aenean
+              facilisis nulla vitae urna tincidunt congue sed.</p>
+          </li>
+          <li id="scotland">
+            <h3>Scotland</h3>
+            <p>Some info about Scotland, or list of addresses, or anything else you want
+              to display here.</p>
+            <p>Donec viverra auctor lobortis. Pellentesque eu est a nulla placerat dignissim.
+              Morbi a enim in magna semper.</p>
+          </li>
+          <li id="wales">
+            <h3>Wales</h3>
+            <p>Some info about Wales, or list of addresses, or anything else you want
+              to display here.</p>
+            <p>In hac habitasse platea dictumst. Nam pulvinar, odio sed rhoncus suscipit,
+              sem diam.</p>
+          </li>
+        </ul>
+      </div>
+
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+       <!-- </div> -->
+      </div>
+
+             
+   </div>
+        </div>
+        
+        
+        <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 class="text-center">Gallery</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <a href="#target-content"><img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png" class="img-responsive"></a>
+            <h3>A title</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisici elit,&nbsp;</p>
+          </div>
+          <div class="col-md-4">
+            <a><img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png" class="img-responsive"></a>
+            <h2>A title</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisici elit,&nbsp;</p>
+          </div>
+          <div class="col-md-4">
+            <a><img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png" class="img-responsive"></a>
+            <h2>A ttile</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisici elit,&nbsp;</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <a><img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png" class="img-responsive"></a>
+            <h3>A title</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisici elit,&nbsp;</p>
+          </div>
+          <div class="col-md-4">
+            <a><img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png" class="img-responsive"></a>
+            <h3>A title</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisici elit,&nbsp;</p>
+          </div>
+          <div class="col-md-4">
+            <a><img src="http://pingendo.github.io/pingendo-bootstrap/assets/placeholder.png" class="img-responsive"></a>
+            <h2>A title</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisici elit,&nbsp;</p>
+          </div>
+        </div>
+      </div>
+            
+      
+            
+    </div>
+        
+     <div class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 class="text-center">Team</h1>
+            <p class="text-center">We are a group of skilled individuals.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <img src="http://pingendo.github.io/pingendo-bootstrap/assets/user_placeholder.png"
+            class="center-block img-circle img-responsive">
+            <h3 class="text-center">John Doe</h3>
+            <p class="text-center">Developer</p>
+          </div>
+          <div class="col-md-4">
+            <img src="http://pingendo.github.io/pingendo-bootstrap/assets/user_placeholder.png"
+            class="center-block img-circle img-responsive">
+            <h3 class="text-center">John Doe</h3>
+            <p class="text-center">Developer</p>
+          </div>
+          <div class="col-md-4">
+            <img src="http://pingendo.github.io/pingendo-bootstrap/assets/user_placeholder.png"
+            class="center-block img-circle img-responsive">
+            <h3 class="text-center">John Doe</h3>
+            <p class="text-center">Developer</p>
+          </div>
+            
+        </div>
+          
+                   
+      
+      </div>
+        
+             
+             
+    </div>
+        
+</div></body></html>
